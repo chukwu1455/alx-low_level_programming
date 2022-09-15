@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_square - prints in square format
  * @size: integre to set square size
  * Return: void
  */
-
 void print_square(int size)
 {
 	int i = 0, ii;
@@ -13,6 +11,7 @@ void print_square(int size)
 	while (i < size && size > 0)
 	{
 		ii = 0;
+
 		while (ii < size)
 		{
 			_putchar('#');
