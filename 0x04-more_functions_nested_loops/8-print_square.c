@@ -2,8 +2,8 @@
 
 /**
  * print_square - prints in square format
- *
  * @size: integre to set square size
+ * Return: void
  */
 
 void print_square(int size)
