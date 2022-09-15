@@ -1,25 +1,26 @@
 #include "main.h"
 /**
- * print_square - prints in square format
- * @size: integre to set square size
- * Return: void
+ * print_square - prints square 
+ *
+ * @size: integer to set square size
  */
 void print_square(int size)
 {
-	int i = 0, ii;
+	int i;
+	int j;
 
-	while (i < size && size > 0)
+	if (size <= 0)
 	{
-		ii = 0;
-
-		while (ii < size)
+		_putchar('\n');
+	} else
+	{
+		for (i = 0; i < size; i++)
 		{
-			_putchar('#');
-			ii++;
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
-		i++;
 	}
-	if (i ==0)
-		_putchar('\n');
 }
