@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _isdigit - checks for digits through  numbers
  *
  * @c: character to determine
  *
