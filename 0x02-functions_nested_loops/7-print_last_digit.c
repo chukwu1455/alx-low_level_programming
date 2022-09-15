@@ -6,6 +6,7 @@
  * @n: n is an integer 
  * Return: integer
  */
+
 int print_last_digit(int n)
 {
 	int lastn = n % 10;
