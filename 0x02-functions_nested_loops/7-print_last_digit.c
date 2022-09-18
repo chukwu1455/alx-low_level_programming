@@ -3,7 +3,7 @@
 /**
  * print_last_digit - Entry point
  * Description: prints the last digit of a number
- * @n: n is an integer 
+ * @n: n is an integer
  * Return: integer
  */
 
