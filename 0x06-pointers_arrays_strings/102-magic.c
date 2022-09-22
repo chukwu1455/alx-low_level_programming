@@ -1,10 +1,4 @@
 #include <stdio.h>
-/**
- * main - main function
- * Description- a magic to print a[2] = 98.
- *
- * Return: new line
- */
 
 int main(void)
 {
