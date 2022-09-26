@@ -4,7 +4,7 @@
  * set_string - set value of a pointer to a char
  *
  * @s: pointer to pointer to set
- * @to poiyter to set the pointer pointed to by s to
+ * @to: poiyter to set the pointer pointed to by s to
  *
  * Return: void
  */
