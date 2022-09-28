@@ -12,6 +12,7 @@ int _sqrt_recursion(int n)
 
 /**
  * _sqrt_recursion - main funct
+ * _sqrt - returns natural sqrt of a number
  * @n: integer parameter
  * @i: intger parameter
  * Return: sqrt
