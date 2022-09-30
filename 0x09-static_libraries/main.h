@@ -7,7 +7,7 @@
  * and the prototype of the function _putchar
  */
 int _putchar(char c);
-int _islower(int c);int _isalpha(int c);
+int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
 int _isupper(int c);
