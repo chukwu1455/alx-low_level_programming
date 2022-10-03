@@ -3,7 +3,7 @@
 /**
  * free_grid -frees a 2D grid
  * @grid: multiD array of ints.
- * @heights: height of the grid
+ * @height: height of the grid
  *
  * Return: no return
  */
