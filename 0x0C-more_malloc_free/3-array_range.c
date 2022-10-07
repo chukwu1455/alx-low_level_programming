@@ -4,7 +4,7 @@
 /**
  * *array_range -  create an array of integers
  * @min: size of the array
- * max: char to initialize
+ * @max: int
  * Return: pointer to the array initialized or NULL
  */
 
