@@ -12,12 +12,16 @@
 int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
+	char o;
+	int arg1, arg2, result;
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
+	arg1 = atoi(argv[1]);
+	arg2 = atoi(argv[3]);
 
 	oprt = get_op_func(argv[2]);
 
@@ -27,6 +31,15 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
+	o = *argv[2];
+
+	if ((o == '/' || o == '%') && arg2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	result = oprt(arg1, arg2);
+
+	printf("%d\n", result);
 	return (0);
 }
