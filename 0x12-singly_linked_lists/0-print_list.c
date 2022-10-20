@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h>
 /**
  * print_list - prints all the elements  a list_t list.
  * @h: singly linked list.
@@ -6,7 +9,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t nelem;
+	int nelem;
 
 	nelem = 0;
 	while (h != NULL)
